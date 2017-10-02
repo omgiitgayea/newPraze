@@ -1,0 +1,93 @@
+.logoImage {
+    width: 20%;
+    height: 20%;
+}
+
+.navbar-spacer {
+    flex: 1 1 auto;
+}
+
+.navbarItems {
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.myCollapse {
+    display: none;
+}
+
+.toolbarContainer {
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+.collapsedMenu {
+    position: fixed;
+    right: 0;
+    top: 56px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Titillium Web', sans-serif;
+    z-index: 1000;
+}
+.collapsedMenu div {
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .menuItems {
+        display: none;
+    }
+    .logoImage {
+        width: 30%;
+        height: 30%;
+    }
+    .myCollapse {
+        display: block;
+    }
+    .copyPraze {
+        width: 100%;
+        text-align: right;
+    }
+    .collapsedMenu {
+        display: block;
+    }
+}
+
+.flexColumns {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 10px 0;
+}
+
+.flexItems {
+    padding: 5px 0;
+}
+
+.footerContainer {
+    /*position:fixed;*/
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.4);
+    background-color: #eeeeee;
+    /*z-index: 1000;*/
+}
+
+.footerBranding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    width: 100%;
+}

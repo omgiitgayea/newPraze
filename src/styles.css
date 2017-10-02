@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.demoButton {
+    background-color: rgb(255, 215, 0);
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+    border-radius: 30px;
+    padding: 10px 25px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.demoButton:hover {
+    box-shadow: 1px 1px 5px #111111, 0 233px 233px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+.paragraphText {
+    font-family: 'Lato', sans-serif;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: 72px;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 20px 0;
+}
+.sectionSubTitle {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.thinLine {
+    background-color: #222222;
+    height: 1px;
+    width: 100%
+}
+
+.smallText {
+    font-size: 14px;
+    color: #888888;
+}
+
+.paddingLeft {
+    padding-left: 5px;
+}
+
+.container {
+    margin: 64px auto;
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: 56px auto;
+    }
+}
+
+.demo-dialog .mat-dialog-container {
+    background-color: transparent;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: none;
+}

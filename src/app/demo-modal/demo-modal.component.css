@@ -1,0 +1,25 @@
+.modalCloseBtn {
+    font-size: 36px;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.demoVideoMobile {
+    display: none;
+}
+.demoVideo {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .demoVideoMobile {
+        display: block;
+    }
+    .demoVideo {
+        display: none;
+    }
+}

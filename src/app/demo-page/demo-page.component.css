@@ -1,0 +1,19 @@
+.topSection {
+    padding-top: 100px;
+    background-image: url('../../assets/images/lookAtDemo.jpg');
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    /*height: 400px;*/
+    justify-content: space-between;
+}
+
+

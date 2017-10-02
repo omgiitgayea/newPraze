@@ -1,0 +1,32 @@
+.modalCloseBtn {
+    font-size: 36px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+
+.formContainer {
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+.loginBtn {
+    background-color: rgb(255, 215, 0);
+    float: right;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.loginBtn:hover {
+    box-shadow: 1px 1px 5px #111111, 0 233px 233px 0 rgba(255, 255, 255, 0.2) inset;
+}

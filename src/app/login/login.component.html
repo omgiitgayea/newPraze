@@ -1,0 +1,16 @@
+<div style="position: relative">
+    <button class="modalCloseBtn" [md-dialog-close]>&times;</button>
+    <h2 md-dialog-content>Log into your Account</h2>
+    <md-dialog-content>
+        <form>
+            <md-form-field class="formContainer">
+                <input type="email" mdInput [(ngModel)] = "email" placeholder="Email Address" name="email">
+            </md-form-field>
+            <md-form-field class="formContainer">
+                <input type="password" mdInput [(ngModel)] = "password" placeholder="Password" name="password">
+            </md-form-field>
+            <div *ngIf="errorHere">Hey Buddy, I think you forgot to put something here</div>
+            <button class="loginBtn" (click)="login()">Log In</button>
+        </form>
+    </md-dialog-content>
+</div>
