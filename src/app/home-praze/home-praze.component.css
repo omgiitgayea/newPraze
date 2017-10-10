@@ -1,7 +1,7 @@
 .topSection {
     background-image: url('../../assets/images/prazeMainBG2.jpg');
     background-size: cover;
-    height: 800px;
+    height: 600px;
     padding-top: 100px;
 }
 
@@ -19,11 +19,54 @@
 }
 
 .lightText {
-    color: palegoldenrod;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: rgba(88, 191, 183, 1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 .lightShadow {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
 }
 
+.sections {
+    padding: 30px 0;
+    width: 100%;
+}
+.textCenterHead {
+    text-align: center;
+}
+
+.middleIconContainer {
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    background-image: url('../../assets/images/200-50-Google-Yelp-Colors-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.comparisonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.vsSide {
+    width: 40%;
+    text-align: center;
+}
+.goodImg {
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url('../../assets/images/800-700-iMac-Yelp-Reviews-150-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.badImg {
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url('../../assets/images/800-700-iMac-Dont-be-this-guy.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

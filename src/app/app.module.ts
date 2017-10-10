@@ -21,6 +21,9 @@ import { InvitationsComponent } from './invitations/invitations.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { ProgressComponent } from './progress/progress.component';
 import {AccountService} from "./account.service";
+import { DumbComponent } from './dumb/dumb.component';
+import { TermsComponent } from './terms/terms.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
     declarations: [
@@ -37,18 +40,24 @@ import {AccountService} from "./account.service";
         AccountComponent,
         InvitationsComponent,
         ReviewsComponent,
-        ProgressComponent
+        ProgressComponent,
+        DumbComponent,
+        TermsComponent,
+        PrivacyComponent
     ],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
         FormsModule,
         RouterModule.forRoot([
+            {path: 'dumb', component: DumbComponent},
             {path: 'product', component: ProductComponent},
             {path: 'resources', component: ResourcesComponent},
             {path: 'blog', component: BlogComponent},
             {path: 'watch-demo', component: DemoPageComponent},
             {path: 'dashboard', component: DashboardComponent},
+            {path: 'terms', component: TermsComponent},
+            {path: 'privacy', component: PrivacyComponent},
             {path: '', component: HomePrazeComponent}
         ]),
         MdDialogModule,

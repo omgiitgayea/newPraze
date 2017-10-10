@@ -1,18 +1,15 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div class="toolbarContainer">
-    <md-toolbar>
-        <a routerLink="">
-            <img class="logoImage" src="../assets/images/prazeLogo2.5ai.png">
-        </a>
-
-        <span class="navbar-spacer"></span>
-
-        <div class="menuItems">
+    <md-toolbar class="tinyToolbar">
+        <div class="leftMenuContainer">
             <span class="navbarItems" routerLink="product">Product</span>
             <span class="navbarItems" routerLink="watch-demo">Watch Demo</span>
             <span class="navbarItems" routerLink="resources">Resources</span>
-            <span class="navbarItems" (click)="openDialog()">Login</span>
             <span class="navbarItems" routerLink="blog">Blog</span>
+        </div>
+        <div class="middleIconContainer" routerLink=""></div>
+
+        <div class="rightMenuContainer">
+            <a href="https://account.patientsnap.com/login" class="myLogin">Login</a>
         </div>
 
         <div class="myCollapse" (click)="openMenu = !openMenu">
@@ -48,19 +45,43 @@
             <div class="flexItems">
                 <div>LET'S CONNECT</div>
                 <div class="smallText">Call: (888) 587-0005</div>
-                <div class="smallText">Support: info@praze.la</div>
-                <div class="smallText">Sales: info@praze.la</div>
+                <div class="smallText">Support: info@patientsnap.com</div>
+                <div class="smallText">Sales: info@patientsnap.com</div>
             </div>
         </div>
-        <div>
-            <div class="thinLine"></div>
-            <div class="footerBranding">
-                <div>
-                    <img src="../assets/images/prazeLogo2.5ai.png" class="logoImage">
-                </div>
-                <div class="copyPraze">
-                    © Praze 2017
-                </div>
+    </div>
+    <div class="thinLine"></div>
+    <div class="footer">
+        <div class="footerBranding">
+            <div class="leftMenuContainer">
+                <span class="lowerMenuItems">Affiliate</span>
+                <span class="lowerMenuItems">FAQs/Contact Us</span>
+                <span class="lowerMenuItems">Jobs</span>
+            </div>
+            <div class="rightMenuContainer">
+                <a href="https://www.facebook.com/PatientSnap/" class="socialItems">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a class="socialItems">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a class="socialItems">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="thinLine"></div>
+    <div class="footer">
+        <div class="footerBranding">
+            <div>
+                <i class="fa fa-phone"></i>
+                888-587-0005
+            </div>
+            <div class="copyPraze">
+                <a class="footPad" routerLink="terms">Terms</a>
+                <a class="footPad" routerLink="privacy">Privacy</a>
+                <span>© PatientSnap 2017</span>
             </div>
         </div>
     </div>

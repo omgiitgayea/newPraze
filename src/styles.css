@@ -8,7 +8,7 @@ body {
 }
 
 .demoButton {
-    background-color: rgb(255, 215, 0);
+    background-color: rgba(88, 191, 183, 1);
     font-size: 20px;
     color: rgb(47, 47, 47);
     border-radius: 30px;
@@ -55,9 +55,13 @@ body {
 
 .container {
     margin: 64px auto 0 auto;
-    width: 80%;
+    width: 60%;
 }
 
+.stdContainer {
+    width: 60%;
+    margin: 0 auto;
+}
 @media only screen and (max-width: 768px) {
     .container {
         width: 95%;
